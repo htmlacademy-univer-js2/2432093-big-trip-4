@@ -1,5 +1,5 @@
-const AUTHORIZATION = 'Basic hIfpbpd204fpubd6';
-const END_POINT = 'https://18.ecmascript.pages.academy/big-trip';
+const AUTHORIZATION = 'Basic key21objects';
+const END_POINT = 'https://21.objects.htmlacademy.pro/big-trip';
 
 const UserAction = {
   UPDATE_POINT: 'UPDATE_POINT',
@@ -34,6 +34,13 @@ const SortTypeDescription = {
   [SortType.TIME]: 'Time',
   [SortType.PRICE]: 'Price',
   [SortType.OFFER]: 'Offer',
+};
+
+const ApiServiceResponseMethod = {
+  GET: 'GET',
+  PUT: 'PUT',
+  POST: 'POST',
+  DELETE: 'DELETE'
 };
 
 const PointType = {
